@@ -1,46 +1,21 @@
-/* 헤더 영역 */
-header {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/main-bg.jpg);
-    background-size: cover;
-    background-position: center top;
-    background-attachment: fixed;
-}
+h1{font-family: 'Moirai One', cursive;}
+h2,h3,h2,h4,h5,p,nav{font-family: 'Dongle', sans-serif;}
+
+header{
+background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/group-picture.jpg);
+background-size: cover;
+background-position: center top;
+background-attachment: fixed;
+opacity: 1;}
+
+#members,#sns{background-color: rgba(222, 190, 203, 0.708)}
+
+#u-d1,#button1{background-color:rgba(222, 190, 203, 0.708) ;}
+#u-d2{background-color:rgba(185, 221, 243, 0.708) ;}
+
+#albums,#footer,#button2{background-color: rgba(185, 221, 243, 0.708)}
+
+#bar{background-color: rgba(185, 221, 243, 0.708)}
 
 
-/* 서비스 섹션 */
-.card-hover:hover {
-    background-color: #ffc10726;
-}
 
-body {
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-.gugi-font {
-    font-family: 'Gugi', cursive;
-}
-
-/* 뉴스 섹션 */
-#news {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/news-bg.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-/* 네비게이션 영역 */
-.nav-link:hover,
-.nav-link.active {
-    color: #ffc107 !important;
-}
-
-/* SNS 영역 */
-#sns-links {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/sns-bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
